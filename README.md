@@ -1,20 +1,39 @@
-# 🎯 YOLOv8 Real-Time Object Detection
+# YOLOv8-ObjectDetection-Pipeline
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-yellow.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.8-green.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-Active-success.svg)
 
-Real-time object detection system using state-of-the-art YOLOv8. Trained for custom datasets (e.g., safety helmets) with capabilities for image, video, and live webcam inference.
+## Description
+This project focuses on object detection. It aims to provide a robust, efficient, and scalable solution using modern technologies and best practices in the field.
 
-## Features
-- 🚀 Real-time webcam object detection
-- 🎛️ Custom training pipeline with dataset augmentation
-- 📈 Performance tracking and mAP metric visualizations
-- 🖼️ Inference on images and videos
+## Key Features
+- High performance architecture
+- Extensible and modular design
+- Comprehensive data processing capabilities
+- Easy-to-use interface and quick setup
+
+## Tech Stack
+- YOLOv8\n- OpenCV\n- Webcam\n- PyTorch
 
 ## Quick Start
 ```bash
+git clone https://github.com/iMuneebK/YOLOv8-ObjectDetection-Pipeline.git
+cd YOLOv8-ObjectDetection-Pipeline
 pip install -r requirements.txt
-python train.py
-python webcam_detect.py
+python main.py
 ```
+
+## Project Structure
+```
+YOLOv8-ObjectDetection-Pipeline/
+├── data/
+├── models/
+├── src/
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+## License
+This project is licensed under the MIT License.
